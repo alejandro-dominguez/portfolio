@@ -5,20 +5,7 @@ import DevAvatar from '../images/dev-avatar.png';
 
 export default function About() {
 	return (
-	<motion.div className='flex flex-col relative min-h-screen max-w-7xl px-0 md:px-10 justify-evenly mx-auto
-		items-center'
-		initial={{
-			opacity: 0
-		}}
-		whileInView={{
-			opacity: 1
-		}}
-		viewport={{
-			once: true
-		}}
-		transition={{
-			duration: 1.5
-		}}>
+	<div className='flex flex-col relative min-h-screen max-w-7xl px-0 md:px-10 justify-evenly mx-aut items-center'>
 		<h3 className='absolute top-24 md:top-16 uppercase tracking-widest text-neutral-300 text-2xl ml-3 md:ml-0'>
 			Sobre mí
 		</h3>
@@ -67,6 +54,6 @@ export default function About() {
 				</p>
 			</motion.div>
 		</div>
-	</motion.div>
+	</div>
 	)
 }

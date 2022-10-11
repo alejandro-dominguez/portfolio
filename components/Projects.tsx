@@ -8,20 +8,8 @@ import ProjectCard5 from './proyectCards/ProjectCard5';
 
 export default function Projects() {
     return (
-    <motion.div className='flex flex-col relative h-screen max-w-7xl px-0 md:px-10 justify-evenly mx-auto
-    items-center 2xl:overflow-x-hidden'
-    initial={{
-        opacity: 0
-    }}
-    whileInView={{
-        opacity: 1
-    }}
-    viewport={{
-        once: true
-    }}
-    transition={{
-        duration: 1
-    }}>
+    <div className='flex flex-col relative h-screen max-w-7xl px-0 md:px-10 justify-evenly mx-auto
+    items-center 2xl:overflow-x-hidden'>
         <h3 className='absolute top-24 md:top-16 uppercase text-center tracking-widest text-neutral-300 text-2xl
             ml-3 md:ml-0'>
             Proyectos
@@ -51,6 +39,6 @@ export default function Projects() {
         </motion.div>
         <div className='z-0 w-[150%] absolute top-[18rem] bg-[#ffe500]/10 left-[-5rem] h-[350px] md:h-[250px]
         skew-y-12 2xl:top-[35rem]'></div>
-    </motion.div>
+    </div>
     )
 }
