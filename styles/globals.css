@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    /* component clases */
+
+    .headerLogo{
+        width: 60px;
+        height: 60px;
+        padding-top: 1rem;
+        margin-right: 0.2rem;
+    }
+
+    .heroImg{
+        filter: drop-shadow(0 0 0.4rem #ffe60047);
+        @apply relative h-32 w-32 md:h-36 md:w-36 mx-auto mt-4 md:mt-0
+    }
+    
+    .heroBtn{
+        @apply px-6 py-1 md:py-2 bg-neutral-800 border-[#ffe500] md:bg-neutral-900 border 
+        md:border-neutral-300 rounded-full uppercase text-sm md:text-base tracking-normal md:tracking-widest
+        text-neutral-200 transition-all duration-200 min-w-[150px] hover:border-[#ffe500] 
+        hover:text-[#ffe500] hover:bg-neutral-800
+    }
+
+    .heroBtn:hover{
+        filter: drop-shadow(0.25rem 0.25rem 0.25rem #000);
+    }
+
+    .aboutImg{
+        filter: drop-shadow(0 0 0.4rem #000000bb);
+    }
+
+    .contactInput{
+        @apply outline-none bg-neutral-400/10 rounded-md border-b-2 px-6 py-2 md:py-4 border-[#242424]
+        placeholder-neutral-400 transition-all duration-200 focus:border-[#ffe500]/50 
+        focus:text-[#ffe500]/80 hover:border-[#ffe500]/50
+    }
+
+    textarea{
+        resize: none;
+    }
+
+    /* utility clases */
+
+    .text-shadow{
+        text-shadow: 0.25rem 0.25rem 0.25rem #000;
+    }
+
+    .project-shadow{
+        filter: drop-shadow(0 0 0.15rem #000000bb);
+    }
+
+    /* media queries */
+
+    @media (max-width: 767px) {
+        .heroBtn{
+            filter: drop-shadow(0.25rem 0.25rem 0.25rem #000);
+        }
+    }
+}
