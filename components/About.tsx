@@ -5,14 +5,15 @@ import DevAvatar from '../images/dev-avatar.png';
 export default function About() {
 	return (
 	<div className='flex flex-col relative min-h-screen max-w-7xl px-0 md:px-10 justify-evenly mx-aut items-center'>
-		<h3 className='absolute top-24 md:top-16 uppercase tracking-widest text-neutral-300 text-2xl ml-3 md:ml-0'>
+		<h3 className='z-10 absolute top-24 md:top-16 uppercase tracking-widest text-neutral-300 text-2xl ml-3
+			md:ml-0'>
 			Sobre mí
 		</h3>
-		<div className="flex flex-col md:flex-row items-start justify-center mt-0 md:mt-4">
+		<div className="z-10 flex flex-col md:flex-row items-start justify-center mt-0 md:mt-4">
 			<div className='relative h-[7.5rem] w-[7.5rem] md:h-60 md:w-60 mt-28 md:mt-0 mx-auto flex-shrink-0'>
 				<Image src={DevAvatar} alt="dev avatar" layout='fill' objectFit='contain' className='aboutImg'/>
 			</div>
-			<div className="flex flex-col max-w-xl items-center md:items-start gap-2 md:gap-6 pl-4 pr-4
+			<div className="z-10 flex flex-col max-w-xl items-center md:items-start gap-2 md:gap-6 pl-4 pr-4
 				md:pl-0 mt-4 md:mt-0">
 				<h4 className='text-xl md:text-3xl text-center md:text-left font-semibold'>Un poco de información
 					<span className='text-[#ffe500]'> sobre mí</span>
@@ -26,6 +27,8 @@ export default function About() {
 				</p>
 			</div>
 		</div>
+		<div className='z-0 w-[150%] absolute top-[18rem] bg-[#ffe500]/10 left-[-5rem] h-[350px] md:h-[250px]
+        skew-y-12 2xl:top-[35rem]'></div>
 	</div>
 	)
 }
