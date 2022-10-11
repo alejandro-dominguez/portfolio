@@ -1,4 +1,4 @@
-# Portfolio Personal V1
+# Portfolio Personal
 
 # Tecnologías
 En este proyecto he utilizado NextJS, Tailwindcss, React y Typescript.
