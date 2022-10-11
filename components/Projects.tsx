@@ -1,13 +1,11 @@
 import React from 'react';
 import { motion } from "framer-motion";
-import ProjectCard from './ProjectCard';
-import { Project } from '../typings';
+import ProjectCard1 from './proyectCards/ProjectCard1';
+import ProjectCard2 from './proyectCards/ProjectCard2';
+import ProjectCard3 from './proyectCards/ProjectCard3';
+import ProjectCard4 from './proyectCards/ProjectCard4';
 
-type Props = {
-    projects: Project[];
-};
-
-export default function Projects({ projects }: Props) {
+export default function Projects() {
     return (
     <motion.div className='flex flex-col relative h-screen max-w-7xl px-0 md:px-10 justify-evenly mx-auto
     items-center 2xl:overflow-x-hidden'
@@ -44,9 +42,10 @@ export default function Projects({ projects }: Props) {
             transition={{
                 duration: 1
             }}>
-            {projects?.reverse().map(project =>(
-                <ProjectCard key={project._id} project={project} />
-            ))}
+            <ProjectCard1 />
+            <ProjectCard2 />
+            <ProjectCard3 />
+            <ProjectCard4 />
         </motion.div>
         <div className='z-0 w-[150%] absolute top-[18rem] bg-[#ffe500]/10 left-[-5rem] h-[350px] md:h-[250px]
         skew-y-12 2xl:top-[35rem]'></div>

@@ -2,12 +2,10 @@ import React from 'react';
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from '../components/BackgroundCircles';
 import Image from 'next/image';
-import avatar from '../images/avatar.png';
+import Avatar from '../images/avatar.png';
 import Link from 'next/link';
 
-type Props = {};
-
-export default function Hero({}: Props) {
+export default function Hero() {
     const [text] = useTypewriter({
         words: [
             "<h1>Hi, my name's Alejandro Dominguez</h1>",
@@ -25,7 +23,7 @@ export default function Hero({}: Props) {
         </div>
         <div className="z-20">
             <div className='heroImg'>
-                <Image priority src={avatar} alt="retrato Alejandro Dominguez" layout='fill' objectFit='contain'/>
+                <Image priority src={Avatar} alt="retrato Alejandro Dominguez" layout='fill' objectFit='contain'/>
             </div>
         </div>
         <div className="z-20">

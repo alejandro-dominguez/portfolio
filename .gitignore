@@ -12,9 +12,6 @@
 /.next/
 /out/
 
-# sanity
-portfolio-a-d/node_modules
-
 # production
 /build
 

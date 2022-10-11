@@ -1,11 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import { motion } from "framer-motion";
-import devAvatar from '../images/dev-avatar.png';
+import DevAvatar from '../images/dev-avatar.png';
 
-type Props = {};
-
-export default function About({}: Props) {
+export default function About() {
 	return (
 	<motion.div className='flex flex-col relative min-h-screen max-w-7xl px-0 md:px-10 justify-evenly mx-auto
 		items-center'
@@ -40,7 +38,7 @@ export default function About({}: Props) {
 				transition={{
 					duration: 1
 				}}>
-				<Image src={devAvatar} alt="dev avatar" layout='fill' objectFit='contain' className='aboutImg'/>
+				<Image src={DevAvatar} alt="dev avatar" layout='fill' objectFit='contain' className='aboutImg'/>
 			</motion.div>
 			<motion.div className="flex flex-col max-w-xl items-center md:items-start gap-2 md:gap-6 pl-4 pr-4
 				md:pl-0 mt-4 md:mt-0"

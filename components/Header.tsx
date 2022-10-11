@@ -2,12 +2,10 @@ import React from 'react';
 import { SocialIcon } from 'react-social-icons';
 import { motion } from "framer-motion";
 import Image from 'next/image';
-import logo from '../images/logo-A.D.svg';
+import Logo from '../images/logo-A.D.svg';
 import { DocumentTextIcon } from "@heroicons/react/24/solid";
 
-type Props = {};
-
-export default function Header({}: Props) {
+export default function Header() {
     return (
     <header className='sticky top-0 flex items-center justify-between pt-2 pb-4 px-4 md:px-8 md:pt-4 md:pb-8
         max-w-7xl mx-auto z-40'>
@@ -26,7 +24,7 @@ export default function Header({}: Props) {
                 duration: 1
             }}>
             <div className='headerLogo'>
-                <Image priority src={logo} alt="logo Alejandro Dominguez" layout='responsive' objectFit='contain'/>
+                <Image priority src={Logo} alt="logo Alejandro Dominguez" layout='responsive' objectFit='contain'/>
             </div>
             <SocialIcon url="https://github.com/alejandro-dominguez" target={"_blank"} fgColor='black'
             bgColor='ghostwhite' className='transition-transform hover:scale-110 duration-300'
