@@ -4,7 +4,8 @@ import DevAvatar from '../images/dev-avatar.png';
 
 export default function About() {
 	return (
-	<div className='flex flex-col relative min-h-screen max-w-7xl px-0 md:px-10 justify-evenly mx-aut items-center'>
+	<div className='flex flex-col relative min-h-screen max-w-7xl 2xl:overflow-x-hidden px-0 md:px-10
+		justify-evenly mx-auto items-center'>
 		<h3 className='z-10 absolute top-24 md:top-16 uppercase tracking-widest text-neutral-300 text-2xl ml-3
 			md:ml-0'>
 			Sobre mí
@@ -27,7 +28,7 @@ export default function About() {
 				</p>
 			</div>
 		</div>
-		<div className='z-0 w-[150%] absolute top-[18rem] bg-[#ffe500]/10 left-[-5rem] h-[350px] md:h-[250px]
+		<div className='z-0 w-[150%] absolute top-[12rem] md:top-[18rem] bg-[#ffe500]/10 left-[-5rem] h-[350px] md:h-[250px]
         skew-y-12 2xl:top-[35rem]'></div>
 	</div>
 	)

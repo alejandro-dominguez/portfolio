@@ -39,8 +39,8 @@ export default function Skills() {
             <SkillImg14 directionLeft />
             <SkillImg15 directionLeft />
         </div>
-        <div className='z-0 w-[150%] absolute top-[11rem] bg-[#ffe500]/10 left-[-5rem] h-[350px] md:h-[250px]
-        -skew-y-12 2xl:top-[30rem]'></div>
+        <div className='z-0 w-[150%] absolute top-[12rem] bg-[#ffe500]/10 left-[-5rem] h-[350px]
+        md:h-[250px] -skew-y-12 2xl:top-[30rem]'></div>
     </div>
     )
 }
