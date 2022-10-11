@@ -48,7 +48,7 @@ return (
                     <div className="flex justify-center items-center mt-4">
                         <SocialIcon url="https://github.com/alejandro-dominguez/portfolio" target={"_blank"}
                         rel="noreferrer" fgColor='ghostwhite' bgColor='transparent' className='transition-transform
-                        hover:scale-110 duration-300 flex-shrink-0'/>
+                        hover:scale-110 duration-300 flex-shrink-0 ml-2 md:ml-4'/>
                     </div>
                 </div>
             </div>
