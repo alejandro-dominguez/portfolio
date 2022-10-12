@@ -28,8 +28,8 @@ export default function About() {
 				</p>
 			</div>
 		</div>
-		<div className='z-0 w-[150%] absolute top-[12rem] md:top-[18rem] bg-[#ffe500]/10 left-[-5rem] h-[350px] md:h-[250px]
-        skew-y-12 2xl:top-[35rem]'></div>
+		<div className='z-0 w-[150%] absolute top-[12rem] md:top-[18rem] bg-[#ffe500]/10 left-[-5rem] h-[350px]
+		md:h-[250px] skew-y-12 2xl:top-[35rem]'></div>
 	</div>
 	)
 }

@@ -15,8 +15,8 @@ export default function Projects() {
             Proyectos
         </h3>
         <motion.div className='z-10 mt-32 p-4 md:p-0 w-full flex space-x-6 overflow-x-scroll snap-x snap-mandatory
-            max-w-[968px] min-h-[440px] md:min-h-[470px] scrollbar-thin md:scrollbar 
-            scrollbar-track-neutral-500/25 scrollbar-thumb-[#ffe500]/90'
+            max-w-[968px] min-h-[440px] md:min-h-[470px] scrollbar-thin md:scrollbarscrollbar-track-neutral-500/25
+            scrollbar-thumb-[#ffe500]/90'
             initial={{
                 opacity: 0,
                 y: -100

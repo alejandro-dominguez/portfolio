@@ -24,7 +24,7 @@ return (
                 </div>
             </div>
             <p className='text-[#ffe500]/90 text-sm md:text-base font-semibold mt-4 tracking-wider'>
-                React | NextJS | TypeScript | Tailwindcss
+                React | NextJS | TypeScript | Tailwindcss | CSS
             </p>
         </div>
     </article>
