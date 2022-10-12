@@ -8,7 +8,7 @@ export default function ProjectCard1() {
     <article className='flex flex-col items-center snap-center'>
         <div className='bg-neutral-800 px-4 pt-6 pb-10 md:px-12 md:py-4 rounded-xl max-w-3xl min-h-[390px]
             md:min-h-[435px] min-w-[290px] shadow-md'>
-            <h4 className='text-shadow text-lg md:text-2xl text-[#ffe500]'>Pizza Palace</h4>
+            <h4 className='text-shadow text-lg md:text-2xl text-[#ffe500] font-medium'>Pizza Palace</h4>
             <div className='flex justify-center items-start'>
                 <div className='relative w-32 h-52 md:w-56 md:h-72 mt-4 flex-shrink-0 project-shadow'>
                     <Image src={PizzaImg} alt="Pizza Palace" title="Pizza Palace" layout='fill' objectFit='cover'
