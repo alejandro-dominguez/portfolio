@@ -32,7 +32,7 @@ const Home: NextPage = () => {
 		<section id='about' className='snap-start max-w-[1800px] mx-auto'>
 			<About />
 		</section>
-		<section id='contact' className='snap-start max-w-[1800px] mx-auto'>
+		<section id='contact' className='overflow-hidden snap-start max-w-[1800px] mx-auto'>
 			<Contact />
 		</section>
 	</div>
