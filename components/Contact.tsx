@@ -53,8 +53,8 @@ export default function Contact() {
                 </button>
             </form>
         </div>
-        <Link href="#hero" className='z-10'>
-			<footer className='absolute bottom-3 right-[8.7rem] md:bottom-4 md:right-16'>
+        <Link href="#hero">
+			<footer className='z-10 absolute bottom-3 right-[8.7rem] md:bottom-4 md:right-16'>
 				<ArrowUpCircleIcon className='text-[#ffe500]/90 h-10 w-10 md:h-12 md:w-12 cursor-pointer'/>
 			</footer>
 		</Link>
