@@ -21,7 +21,7 @@ export default function About() {
 				</h4>
 				<p className='text-sm md:text-base'>Soy un apasionado de la programación y el diseño. Vengo del 
 					rubro del diseño gráfico y el marketing digital. Siempre había querido programar páginas web, 
-					hasta que comencé a hacer y desde ese momento no he parado de aprender nuevas habilidades que 
+					hasta que comencé a hacerlo y desde ese momento no he parado de aprender nuevas habilidades que 
 					verdaderamente me fascinan.<span className='my-2 block' />Actualmente mi especialidad es el 
 					desarrollo front end, es el área que más me interesa por su relación con todo el mundo del 
 					diseño.
