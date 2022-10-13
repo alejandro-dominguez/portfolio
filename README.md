@@ -4,4 +4,12 @@
 En este proyecto he utilizado NextJS, Tailwindcss, React, Typescript y CSS.
 
 # Librerías utilizadas
-React Social Icons, Framer Motion, Heroicons, React Simple Typewriter, React Hook Form y Tailwind Scrollbar
+React Social Icons, Framer Motion, Heroicons, React Simple Typewriter, React Hook Form y Tailwind Scrollbar.
+
+# Conceptos trabajados
+Algunas de las habilidades que he trabajado en este proyecto son:
+- El uso de algunos componentes que brinda nextJS como <Image/> y <Link></Link>.
+- Uso de componentes de React para generar el renderizado de la página.
+- Crear animaciones y componentes del UI utilizando distintas librerías.
+- Uso de tipos de TypeScript para generar valores booleans y recuperar datos de los inputs del formulario de contacto.
+- Utilizar estilos en línea con Tailwindcss para dat estilo al UI.
