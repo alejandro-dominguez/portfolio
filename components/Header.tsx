@@ -37,7 +37,7 @@ export default function Header() {
             style={{ height: 38, width: 38 }}/>
             
         </motion.div>
-        <motion.div className='flex flex-row md:gap-2 items-center cursor-pointer'
+        <motion.div className='flex flex-row md:gap-2 items-center'
             initial={{
                 x: 150,
                 opacity: 0,
