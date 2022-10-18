@@ -1,0 +1,15 @@
+export { default as SkillImg1 } from "../skillsImgs/SkillImg1";
+export { default as SkillImg2 } from "../skillsImgs/SkillImg2";
+export { default as SkillImg3 } from "../skillsImgs/SkillImg3";
+export { default as SkillImg4 } from "../skillsImgs/SkillImg4";
+export { default as SkillImg5 } from "../skillsImgs/SkillImg5";
+export { default as SkillImg6 } from "../skillsImgs/SkillImg6";
+export { default as SkillImg7 } from "../skillsImgs/SkillImg7";
+export { default as SkillImg8 } from "../skillsImgs/SkillImg8";
+export { default as SkillImg9 } from "../skillsImgs/SkillImg9";
+export { default as SkillImg10 } from "../skillsImgs/SkillImg10";
+export { default as SkillImg11 } from "../skillsImgs/SkillImg11";
+export { default as SkillImg12 } from "../skillsImgs/SkillImg12";
+export { default as SkillImg13 } from "../skillsImgs/SkillImg13";
+export { default as SkillImg14 } from "../skillsImgs/SkillImg14";
+export { default as SkillImg15 } from "../skillsImgs/SkillImg15";

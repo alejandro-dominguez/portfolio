@@ -1,19 +1,8 @@
 import React from 'react';
-import SkillImg1 from './skillsImgs/SkillImg1';
-import SkillImg2 from './skillsImgs/SkillImg2';
-import SkillImg3 from './skillsImgs/SkillImg3';
-import SkillImg4 from './skillsImgs/SkillImg4';
-import SkillImg5 from './skillsImgs/SkillImg5';
-import SkillImg6 from './skillsImgs/SkillImg6';
-import SkillImg7 from './skillsImgs/SkillImg7';
-import SkillImg8 from './skillsImgs/SkillImg8';
-import SkillImg9 from './skillsImgs/SkillImg9';
-import SkillImg10 from './skillsImgs/SkillImg10';
-import SkillImg11 from './skillsImgs/SkillImg11';
-import SkillImg12 from './skillsImgs/SkillImg12';
-import SkillImg13 from './skillsImgs/SkillImg13';
-import SkillImg14 from './skillsImgs/SkillImg14';
-import SkillImg15 from './skillsImgs/SkillImg15';
+import { SkillImg1, SkillImg2, SkillImg3, SkillImg4, SkillImg5, SkillImg6, SkillImg7,
+SkillImg8, SkillImg9, SkillImg10, SkillImg11, SkillImg12, SkillImg13, SkillImg14, SkillImg15 }
+from "./skillsImgs";
+
 
 export default function Skills() {
     return (

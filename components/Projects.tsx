@@ -1,10 +1,7 @@
 import React from 'react';
 import { motion } from "framer-motion";
-import ProjectCard1 from './proyectCards/ProjectCard1';
-import ProjectCard2 from './proyectCards/ProjectCard2';
-import ProjectCard3 from './proyectCards/ProjectCard3';
-import ProjectCard4 from './proyectCards/ProjectCard4';
-import ProjectCard5 from './proyectCards/ProjectCard5';
+import { ProjectCard1, ProjectCard2, ProjectCard3, ProjectCard4, ProjectCard5 }
+from "./proyectCards";
 
 export default function Projects() {
     return (
